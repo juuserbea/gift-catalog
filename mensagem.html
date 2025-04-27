@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estamos muito felizes! 🎉</title>
+  <link rel="stylesheet" href="estilo.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .animate-fade-in {
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    .animate-shake {
+      animation: shake 0.6s ease-in-out 4 alternate;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes shake {
+      0% { transform: translateX(0); }
+      25% { transform: translateX(-8px); }
+      50% { transform: translateX(8px); }
+      75% { transform: translateX(-5px); }
+      100% { transform: translateX(0); }
+    }
+  </style>
+</head>
+
+<body class="festa-bg flex items-center justify-center min-h-screen p-4">
+
+  <!-- Fase 1: Brincadeira -->
+  <div id="brincadeira" class="text-center bg-white/80 p-6 sm:p-8 rounded-3xl shadow-2xl w-full max-w-lg animate-fade-in animate-shake">
+    <h1 class="text-2xl sm:text-3xl font-bold mb-4 text-yellow-600">
+      😬 Oops... seu nome não está na lista!!!
+    </h1>
+    <p class="text-base sm:text-lg text-yellow-700">
+      voltando à página inicial...
+    </p>
+  </div>
+
+  <!-- Fase 2: Mensagem final -->
+  <div id="mensagem-final" class="hidden text-center bg-white/80 p-6 sm:p-8 rounded-3xl shadow-2xl w-full max-w-lg animate-fade-in">
+    <h1 class="text-2xl sm:text-3xl font-extrabold mb-4 text-yellow-600">
+      Brincadeira!!! Que alegria ter você com a gente, <span id="nome">Amigo(a)</span>! 🌟
+    </h1>
+    <p class="text-base sm:text-lg text-yellow-700 mb-6">
+      Sua presença é o que fará essa noite ser inesquecível!<br>
+      Os presentes que sugerimos são apenas uma forma de facilitar, caso queira escolher.<br>
+      Se decidir por algum, não esqueça de confirmar para que possamos marcar como reservado! 🎀✅ <br>
+      Prepare-se para uma noite cheia de magia, sorrisos e muito amor! ✨
+    </p>
+    <a href="presentes.html" class="inline-block w-full py-3 rounded-2xl shadow-md bg-yellow-400 hover:bg-yellow-500 text-white font-semibold transition duration-300">
+      Escolher Presente 🎁
+    </a>
+  </div>
+
+
+
+  <!-- Script -->
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const params = new URLSearchParams(window.location.search);
+      const nome = params.get("nome") || "Amigo(a)";
+      const nomeSpan = document.getElementById("nome");
+
+      setTimeout(() => {
+        document.getElementById("brincadeira").classList.add("hidden");
+        document.getElementById("mensagem-final").classList.remove("hidden");
+        nomeSpan.textContent = nome;
+      }, 4000);
+    });
+  </script>
+
+</body>
+</html>

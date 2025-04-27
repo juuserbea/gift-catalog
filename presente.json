@@ -1,0 +1,316 @@
+    [
+        {
+          "id": 1,
+          "title": "Paleta iluminadores FRAN BY FRANCINY EHLKE GRITANI",
+          "price": 149.90,
+          "description": "Com perfeita combinação entre no natural e o GLOW, a paleta GRITANI oferece iluminadores que vão de tons neutros a intensos em uma única paleta. Os tons ajustáveis foram cuidadosamente pensados para atender a todos os gostos e ocasiões. Porque amamos? O acabamento de segunda pele e a riqueza em brilho e pérolas, oferecem o glow perfeito e fixação prolongada.",
+          "image": "presentes/presente2.webp",
+          "escolhido": false
+        },
+        {
+          "id": 2,
+          "title": "Gloss FRAN BY FRANCINY EHLKE LIPHONEY",
+          "price": 69.90,
+          "description": " O LipHoney chegou pra ser o seu novo companheiro inseparável, pronto pra te acompanhar em qualquer lugar! O meu novo gloss de mel é perfeito para quem quer lábios super hidratados, com aquele brilho que a gente ama e com o gostinho e aroma de mel, que vai despertar deliciosas sensações.",
+          "image": "presentes/presente3.webp",
+          "escolhido": false
+        },
+        {
+          "id": 3,
+          "title": "Gloss FRAN BY FRANCINY EHLKE LIP BUNNY",
+          "price": 65.90,
+          "description": "Apresento a vocês o LIP BUNNY, nosso Gloss de chocolate superexclusivo. Sua cor marrom com tom de cacau e partículas de brilho, revelam efeito sofisticado, textura espelhada e fica lindo para todos os tons de pele. O LIP BUNNY vem com a ponteira chubby que a gente ama, entregando a quantidade ideal para que o Gloss fique ainda mais lindo após a aplicação. A fórmula confortável e muito hidratante, possui ativos antioxidantes que suavizam as linhas ao redor dos lábios. A embalagem é única e colecionável e é mais um sucesso da linha, pensado para você usar como acessório e carregá-lo facilmente para onde quiser.",
+          "image": "presentes/presente4.webp",
+          "escolhido": false
+        },
+        {
+          "id": 4,
+          "title": "Kit FRAN GLOSSLICIOUS BY FRANCINY EHLKE",
+          "price": 109.90,
+          "description": "Para nós que somos obcecados por Gloss e amamos experimentar algo novo, o GLOSSLICIOUS veio aí! Estão preparados? São 3 glossys que arrasam no efeito vinílico e ultra brilho 3D, que te conquistarão com cores e sabores. Esses são meus novos bebês, pensados especialmente para despertar desejos e deliciosas sensações. A ponteira do GLOSSLICIOUS dispensa produto suficiente para um bocão de diva e entrega muito além de lábios brilhosos. Sem contar que possuem poder hidratante e antioxidante, que tratam os lábios a cada aplicação..",
+          "image": "presentes/presente1.webp",
+          "escolhido": false
+        },
+        {
+          "id": 5,
+          "title": "Paleta blushes FRAN BY FRANCINY EHLKE BEACH FACE",
+          "price": 149.90,
+          "description": "A paleta BEACH FACE FRAN By Franciny Ehlke traz quatro tons que transitam entre o coral, violeta e dourado. Os pigmentos puros atingem o nível máximo de cor, realçando o tom na pele de forma natural. Constrói sem manchar e combina perfeitamente com vários tons de pele, realçando a cor de forma pura e vibrante. Um dos tons da paleta possui textura cremosa, não oleosa e que adere instantaneamente à pele sem deixá-la pegajosa ou oleosa. Porque amamos? Um tom para cada humo, ocasião e com fixação para ficar com a bochecha saudável o dia todo!",
+          "image": "presentes/presente5.webp",
+          "escolhido": false
+        },   
+        {
+          "id": 6,
+          "title": "Câmera instax mini 12 rosa gloss",
+          "price": 389,
+          "description": "Foto instantânea: uma experiência única! Onde as fotos são impressas em 5 segundos e são reveladas instantaneamente à frente dos seus olhos (até 2 min. após o clique).",
+          "image": "presentes/presente6.png",
+          "escolhido": false
+        },
+        {
+          "id": 7,
+          "title": "Novo Câmera Digital 4k Hd Com Zoom 16x Com Cartão De Memória",
+          "price": 188,
+          "description": "Câmera digital de alta definição 4k 50 milhões de fotos Câmera com zoom digital 16x Sem vibração Câmera doméstica adequada para Gife",
+          "image": "presentes/presente7.png",
+          "escolhido": false
+        },
+        {
+          "id": 8,
+          "title": "JBL, Caixa de Som, Bluetooth, Go - Preta",
+          "price": 170,
+          "description": "SOM INCONFUNDÍVEL. A qualidade de som profissional da JBL oferece um áudio surpreendentemente potente e graves intensos no tamanho ultracompacto da Go Essential.À PROVA D'ÁGUA. A qualidade de som profissional da JBL oferece um áudio surpreendentemente potente e graves intensos no tamanho ultracompacto da Go Essential.",
+          "image": "presentes/presente8.png",
+          "escolhido": false
+        },
+        {
+          "id": 9,
+          "title": "Basike Fones de Ouvido Sem Fio, Headphone Bluetooth on-ear com Microfone, ANC Cancelamento do Ruído, Até 50 Horas de Música, HQ001B (Branco)",
+          "price": 141,
+          "description": "Com ajustes laterais que se moldam facilmente à cabeça criando uma experiência confortável.REVESTIMENTO CONFORTÁVE Revestimento com materiais de primeira qualidade para se adequar corretamente aos seus ouvidos. Bateria com 30 horas de duração e recarga rápida com USB-C.",
+          "image": "presentes/presente9.png",
+          "escolhido": false
+        },
+        {
+          "id": 10,
+          "title": "Relógio Inteligente Feminino Rosa, Smartwatch 1.85 Resistente à Água IP68 com Modos Esportivos e Recebimento de Notificações para iOS e Android",
+          "price": 217,
+          "description": "Nova versão aprimorada das chamadas por:O relógio inteligente R30PRO adota uma tela sensível ao toque TFT LCD de 1,85 polegadas de alta resolução com exibição clara e flexível, proporcionando um prazer visual aberto. O smartwatch usa um microfone e um alto-falante integrados para chamadas sem o uso das mãos e suporta a visualização de gravações de chamadas e a adição de contatos usados com frequência.",
+          "image": "presentes/presente10.jpg",
+          "escolhido": false
+        },
+        {
+          "id": 11,
+          "title": "Caneca de cerâmica Hello Kitty 15,5cm branca ",
+          "price": 89.99,
+          "description": "Nada mais millennial do que tomar um bom café da manhã na companhia da Caneca de cerâmica Hello Kitty 15,5cm branca | Sanrio + Casa Riachuelo. Ela pode ser sua parceira matutina com muita diversão e nostalgia. Produzida em cerâmica e com alça, a peça é perfeita para enfeitar a sua mesa posta e até mesmo como item decorativo. A caneca possui estampa temática do universo de Hello Kitty, trazendo um toque único e super fun para sua mesa. Combine com outras peças da Casa Riachuelo para deixar a sua mesa ainda mais incrível.",
+          "image": "presentes/presente11.jpg",
+          "escolhido": false
+        },{
+          "id": 12,
+          "title": "Candeeiro De Mesa Recarregável Com Toque Retrátil De Aço Branco Quente LED Luz Ajustável ",
+          "price": 150,
+          "description": "Esta Luminária Abajur é a combinação perfeita de estilo e funcionalidade. Com ajuste de altura flexível, ela se adapta facilmente ao seu ambiente, seja na mesa de estudo, no quarto ou no escritório. Sua função dimerizável permite regular a intensidade da luz, criando o clima ideal para qualquer momento.",
+          "image": "presentes/presente12.jpg",
+          "escolhido": false
+        },{
+          "id": 13,
+          "title": "Mesa Dobrável Portátil Para Notebook Tablet Ipad Home Office Cama Refeição Em MDF Barata",
+          "price": 120,
+          "description": "Mesa Dobrável Portátil P/ Notebook Home Office Cama Refeição Porta Copo em MDF.Benefícios do produto:Versatilidade: Ideal para uso em diferentes ambientes, como cama, sofá ou escritóri;Conforto: Permite uma postura ergonômica ao trabalhar ou estudar, reduzindo desconfortos.Compacta; Portátil: Fácil de dobrar e armazenar, economizando espaço quando não está em uso.",
+          "image": "presentes/presente13.jpg",
+          "escolhido": false
+        },{
+          "id": 14,
+          "title": "Bolsa Meia Lua Baguete Feminina Ombro Mão Tendencia Clutch Hobo Tote Bolsa de mão bolsa de ombro elegante com zíper bolsa de lua para mulheres bolsa feminina minimalista.",
+          "price": 49.90,
+          "description": "Prepare-se para elevar seu estilo a novas alturas com nossa última de moda. Esta bolsa versátil e elegante combina funcionalidade e estilo de uma forma única. Com um design inovador que incorpora elementos da lua, esta bolsa é mais do que apenas um acessório - é uma declaração de moda.",
+          "image": "presentes/presente14.jpg",
+          "escolhido": false
+        }
+        ,{
+          "id": 15,
+          "title": "Sweetra Saia Curta Plissada Elegante e Retrô de Cintura Alta, Com Fenda Lateral em Couro PU Brasileiro, Modelo A-Line Rodada, Estilo Y2K para Mulheres (TAM:36)",
+          "price": 67,
+          "description": "Sem forro;Estampa:Simples;Estilo:Casual",
+          "image": "presentes/presente15.jpg",
+          "escolhido": false
+        }
+        ,{
+          "id": 16,
+          "title": "Sweetra Saia Míni com Laço na Cintura e Fenda Lateral para Mulheres, Design Estiloso, Primavera/Verão (TAM:36)",
+          "price": 81.90,
+          "description": "Detalhes:Nó borboleta,Zíper,Sem forro;Estampa:Simples;Estilo:Casual;Tipo:Short-saia",
+          "image": "presentes/presente16.jpg",
+          "escolhido": false
+        }
+        ,{
+          "id": 17,
+          "title": "Saia Midi Gode Envelope",
+          "price": 100,
+          "description": "A SAIA E TAMANHO UNICO!!SAIA EVELOPE POR SER ENVELOPE E VESTE DO P AO GG.DO TAMANHO 36 AO 46;Detalhes:Com cinto, Nó;Sem forro;Estampa:Simples;Estilo:Casual;Tipo:Flared / Alargado",
+          "image": "presentes/presente17.jpg",
+          "escolhido": false
+        }
+        ,{
+          "id": 18,
+          "title": "Fita Led Mangueira Neon RGB 5 Metros Com Controle Remoto Com Fonte Enfeites Para Casa",
+          "price": 79.90,
+          "description": "Ilumine e transforme seus espaços com a Fita LED Neon RGB de 5 Metros, uma opção versátil e vibrante para personalizar ambientes de maneira única. Agora, você pode escolher entre duas opções: adquira a fita LED com fonte, proporcionando flexibilidade na sua escolha.",
+          "image": "presentes/presente18.png",
+          "escolhido": false
+        }
+        ,{
+          "id": 19,
+          "title": "Espelho de Maquiagem com Luz LED de Mesa, Espelho de Vaidade Portátil e Dobrável para Dormitório de Estudante, Escritório, Quarto, Melhores Presentes",
+          "price": 98.95,
+          "description": "Cor:Multicolorido;Material:Vidro:Fonte de energia:Conexão USB ou outra conexão de energia CC, Bateria (bateria recarregável)",
+          "image": "presentes/presente19.jpg",
+          "escolhido": false
+        }
+        ,{
+          "id": 20,
+          "title": "Conjunto Grécia Paty Nordestina Azul (TAM:36) ",
+          "price": 190,
+          "description": "Inspirado no Verão Europeu possui uma Estampa Única, com detalhes Dior. Sua forma é pequena, porém possui elastano na cintura e uma qualidade impecável.Use para diversas ocasiões como eventos ao ar livre, praia, dia a dia ou dias quentes.",
+          "image": "presentes/presente20.jpg",
+          "escolhido": false
+        }
+        ,{
+          "id": 21,
+          "title": "Bolsas femininas de design de nicho populares.Novas bolsas de ombro crossbody adequadas para todos",
+          "price": 190,
+          "description": "Textura da camada:poliéster;Cenário aplicável:colocação diária;Cor:preto, marrom, creme;Tendência de bolsa:bolsa quadrada pequena",
+          "image": "presentes/presente21.jpg",
+          "escolhido": false
+        }
+        ,{
+          "id": 22,
+          "title": "Mini mochila",
+          "price": 65.90,
+          "description": "Em dias tão corridos onde passamos tanto tempo fora de casa, as mochilas são utensílios essenciais que nós ajudam a transportar nossos pertences com facilidade, ideal para escola, cursinho, faculdade, trabalho e passeio.",
+          "image": "presentes/presente22.webp",
+          "escolhido": false
+        }
+        ,{
+          "id": 23,
+          "title": "Paleta de sombra orange NIINA SECRETS 5,6G - NIINA SECRETS",
+          "price":129.90,
+          "description": "A Palette De Sombras Niina Secrets Orange é a tendência do verão que você pediu! Em edição limitada e colecionável, traz a sombra laranja em uma maquiagem em tons terrosos  com muita cor e brilho para os diferentes tons de pele brasileira, para makes básicas até as mais elaboradas.",
+          "image": "presentes/presente23.webp",
+          "escolhido": false
+        }
+        ,{
+          "id": 24,
+          "title": "Paleta de Sombras Ginger Glow - Color Palette | Mari Maria Makeup",
+          "price": 86.90,
+          "description": "Descubra a explosão de cores e a versatilidade da Ginger Glow Color Palette da Mari Maria Makeup. Esta paleta de sombras é perfeita para criar looks vibrantes e ousados, com uma combinação de tons que se destacam e realçam a sua criatividade.",
+          "image": "presentes/presente24.png",
+          "escolhido": false
+        }
+        ,{
+          "id": 25,
+          "title": "Mari Maria Makeup Deusas Gregas Afrodite",
+          "price": 177,
+          "description": "A Paleta de Sombras Mari Maria Makeup Deusas Gregas Afrodite possui formulação de alta pigmentação e textura macia, facilitando o deslizar sobre as pálpebras, deixando um efeito incrível.",
+          "image": "presentes/presente25.png",
+          "escolhido": false
+        }
+        ,{
+          "id": 26,
+          "title": "Tênis Nike Dunk Low Panda Feminino (tam:36/37)",
+          "price": 180,
+          "description": "Originalmente criado para as quadras, o Dunk mais tarde foi para as ruas - e como se costuma dizer, o resto é história. Mais de 35 anos após sua estreia, a silhueta ainda oferece um estilo ousado e desafiador",
+          "image": "presentes/presente26.jpg",
+          "escolhido": false
+        },{
+          "id": 27,
+          "title": "Deo Colônia Ozara 100ml",
+          "price": 135,
+          "description": "Os elementos da natureza apresentam-se na composição da linha Ozara e revelam seu poder de transformação a partir da energia do fogo, das profundezas do mar e, principalmente, da potência da terra. Uma fragrância unissex que se desdobra em vibração, energia e calor.",
+          "image": "presentes/presente27.webp",
+          "escolhido": false
+        },{
+          "id": 28,
+          "title": "Deo Colônia Amaú 100ml Relicário",
+          "price": 135,
+          "description": "A linha Relicário reúne clássicas fragrâncias femininas da Avatim. Eternizadas por suas notas envolventes e florais, Apoena, Amaú e Em Flor conquistaram o coração do público e possuem lugar cativo na sua memória olfativa.",
+          "image": "presentes/presente28.webp",
+          "escolhido": false
+        },{
+          "id": 29,
+          "title": "Deo Colônia Carmim 100ml Relicário",
+          "price": 162,
+          "description": "A linha Relicário reúne clássicas fragrâncias femininas da Avatim. Eternizadas por suas notas envolventes e florais, Apoena, Amaú e Em Flor conquistaram o coração do público e possuem lugar cativo na sua memória olfativa. ",
+          "image": "presentes/presente29.webp",
+          "escolhido": false
+        },{
+          "id": 30,
+          "title": "Deo Parfum Íris 100ml",
+          "price": 68,
+          "description": "A linha Íris é a expressão de um olhar feminino, leve e confiante sobre as inúmeras maneiras de ser mulher. A fragrância é enérgica e sofisticada em uma mescla de notas florais e adocicadas como mel de cacau, flor de lótus, lírio, cajá e mirtilo.",
+          "image": "presentes/presente30.webp",
+          "escolhido": false
+        },{
+          "id":31,
+          "title": "Kit Dia Dia Flor de Cerejeira",
+          "price": 120,
+          "description": "A linha Dia Dia encaixa-se nos momentos de desaceleração como uma ponte que te aproxima de essências aromáticas da natureza. As fragrâncias Chá Verde & Ervas, Flor de Cerejeira, Lavanda e Marina trazem leveza para a sua rotina de autocuidado.",
+          "image": "presentes/presente31.webp",
+          "escolhido": false
+        },{
+          "id": 32,
+          "title": "Banho Refrescante Lavanda 300ml Dia Dia",
+          "price": 120,
+          "description": "A linha Dia Dia encaixa-se nos momentos de desaceleração como uma ponte que te aproxima de essências aromáticas da natureza. As fragrâncias Chá Verde & Ervas, Flor de Cerejeira, Lavanda e Marina trazem leveza para a sua rotina de autocuidado.",
+          "image": "presentes/presente32.webp",
+          "escolhido": false
+        },{
+          "id": 33,
+          "title": "Elysée Blanc Eau de Parfum 50ml",
+          "price": 190,
+          "description": "Elysée Blanc Eau de Parfum entrega uma fragrância feminina exclusiva com muita sofisticação para envolver seus dias.",
+          "image": "presentes/presente33.webp",
+          "escolhido": false
+        },{
+          "id":34,
+          "title": "Botica 214 African Sunrise Floral Frutal Eau De Parfum 75ml",
+          "price": 224,
+          "description": "Botica 214 African Sunrise é uma fragrância feminina Floral Frutal envolvente, com a cremosidade do Pêssego unida ao floral delicado do Frangipani, que juntos trazem uma tonalidade solar moderna e uma assinatura sofisticada, transportando você diretamente para o coração da Savana Africana.",
+          "image": "presentes/presente34.webp",
+          "escolhido": false
+        },{
+          "id": 35,
+          "title": "Glamour Diva Desodorante Colônia 75ml",
+          "price": 177,
+          "description": "Possui fragrância com buquê floral, notas adocicadas e aditivas que combinadas à Baunilha, Sândalo, Amêndoas e Cereja Turca resultam em uma fragrância envolvente e instigante.",
+          "image": "presentes/presente35.webp",
+          "escolhido": false
+        },{
+          "id": 36,
+          "title": "Manto Flamengo Goleiro 1 Adidas (TAM:M)",
+          "price": 350,
+          "description": "O Mengão é conhecido conhecido por seu brilhante jogo de ataque, mas sem uma defesa sólida não é possível ir tão longe, e este é o novo manto do paredão flamenguista. Com um material elástico na lateral, a liberdade de movimento fica garantida. O tecido respirável AEROREADY mantém a pele seca mesmo nos momentos mais intensos da partida.",
+          "image": "presentes/presente36.webp",
+          "escolhido": false
+        },{
+          "id": 37,
+          "title": "Camisa Flamengo Feminina Jogo 2 Adidas (TAM:M)",
+          "price": 350,
+          "description": " O Mengão é conhecido conhecido por seu brilhante jogo de ataque, mas sem uma defesa sólida não é possível ir tão longe, e este é o novo manto do paredão flamenguista. Com um material elástico na lateral, a liberdade de movimento fica garantida. O tecido respirável AEROREADY mantém a pele seca mesmo nos momentos mais intensos da partida.",
+          "image": "presentes/presente37.webp",
+          "escolhido": false
+        }
+        ,{
+          "id": 38,
+          "title": "Bolsa Feminina Pequena Tira Colo Alça Transversal com Porta Cartões",
+          "price": 50,
+          "description": "Alça de ombro em destaque",
+          "image": "presentes/presente38.png",
+          "escolhido": false
+        }
+        ,{
+          "id": 39,
+          "title": "2 Peças/Conjunto Pijama de Cetim para Mulheres, Top com Gola Virada e Shorts com Laço, Roupa Doméstica, Conjunto de Duas Peças ",
+          "price": 78.90,
+          "description": "Detalhes:Nó borboleta, Botão, Bolso, Cintura",
+          "image": "presentes/presente39.jpg",
+          "escolhido": false
+        }
+        ,{
+          "id": 41,
+          "title": "SilkySpell 5 Peças Conjunto Feminino de Renda com Listras de Cor Contrastante e Impressão em Seda Sintética",
+          "price": 136,
+          "description": "Detalhes:Com cinto, Laço Contraste;Estampa:Listrado",
+          "image": "presentes/presente41.jpg",
+          "escolhido": false
+        }
+        ,{
+          "id": 40,
+          "title": "1 Peça Garrafa de Água Série Coração Rosa e Tulipa",
+          "price": 68,
+          "description": "Estampa:Geométrico,Plantas;Material:Aço Inoxidáve",
+          "image": "presentes/presente40.jpg",
+          "escolhido": false
+        }
+      ]

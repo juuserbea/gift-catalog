@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>15 Anos da Bia</title>
+  <link rel="stylesheet" href="estilo.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .fade-in {
+      animation: fadeIn 1s ease forwards;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: scale(0.95); }
+      to { opacity: 1; transform: scale(1); }
+    }
+    .confete {
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      background: gold;
+      animation: fall 3s linear infinite;
+    }
+    @keyframes fall {
+      from { transform: translateY(-100px) rotate(0deg); opacity: 1; }
+      to { transform: translateY(500px) rotate(360deg); opacity: 0; }
+    }
+  </style>
+  <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-database-compat.js"></script>
+  <script>
+    // Configuração do Firebase
+    const firebaseConfig = {
+      apiKey: "AIzaSyAeuOx26s7aeziLzVyhZONUkRHFpjbZzOQ",
+      authDomain: "aniversario-da-bia.firebaseapp.com",
+      databaseURL: "https://aniversario-da-bia.firebaseio.com",
+      projectId: "aniversario-da-bia",
+      storageBucket: "aniversario-da-bia.appspot.com",
+      messagingSenderId: "939759943086",
+      appId: "1:939759943086:web:821449ab5b6162cf75dc3f",
+      measurementId: "G-0GSLRVRW9T"
+    };
+  
+    // Inicializa o Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+  
+</head>
+<body class="festa-bg relative overflow-hidden min-h-screen flex flex-col justify-center items-center px-2 py-4">
+
+  <!-- Confetes -->
+  <div id="confetes" class="pointer-events-none absolute inset-0 z-30 hidden"></div>
+
+  <div class="w-full max-w-sm bg-white/80 p-4 rounded-2xl shadow-2xl text-center fade-in">
+    <h1 class="text-xl sm:text-2xl font-bold mb-3">Seja Bem-vindo! 🎉</h1>
+    <p class="text-sm sm:text-base mb-3">✨ Hoje começa mais que uma festa, começa uma memória que vai durar para sempre.</p>
+    <p class="text-sm sm:text-base mb-3">Prepare o sorriso, abra o coração e venha viver uma noite mágica ao lado da nossa querida Bia! 💖</p>
+    <p class="text-sm sm:text-base mb-5 font-semibold">💫 O grande dia está chegando e cada segundo que passa é pura emoção!</p>
+    <p class="text-sm sm:text-base mb-3">Estamos esperando por você para brindar e celebrar juntos! 🎈</p>
+
+    <form id="form-nome" class="mt-3">
+      <label for="nome" class="text-sm sm:text-base font-medium mb-2 block">Digite seu nome e sobrenome:</label>
+      <input 
+        type="text" 
+        id="nome" 
+        name="nome" 
+        placeholder="Seu nome aqui..." 
+        required
+        class="w-full px-3 py-2 rounded-xl border-2 border-yellow-300 placeholder-yellow-400 focus:outline-none focus:ring-4 focus:ring-yellow-200 text-yellow-800 mb-3"
+      >
+      <button 
+        type="submit" 
+        class="w-full py-2 rounded-xl shadow-md bg-yellow-400 hover:bg-yellow-500 text-white font-semibold transition duration-300"
+      >
+        Confirmar Nome ✨
+      </button>
+    </form>
+
+    <p id="contador" class="mt-5 text-sm sm:text-base font-semibold text-yellow-600"></p>
+  </div>
+
+  <script>
+    // Contador regressivo para o grande dia
+    const destino = new Date("2025-08-05T19:00:00").getTime();
+    setInterval(() => {
+      const agora = new Date().getTime();
+      const distancia = destino - agora;
+      const contador = document.getElementById("contador");
+
+      if (distancia <= 0) {
+        contador.innerHTML = "A festa começou! 🎉";
+        return;
+      }
+      const dias = Math.floor(distancia / (4500 * 60 * 60 * 24));
+      const horas = Math.floor((distancia % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutos = Math.floor((distancia % (1000 * 60 * 60)) / (1000 * 60));
+      const segundos = Math.floor((distancia % (1000 * 60)) / 1000);
+
+      contador.innerHTML = `Faltam ${dias} dias, ${horas}h ${minutos}min ${segundos}s para a festa! 🥳`;
+    }, 1000);
+
+    // Salva o nome no localStorage e redireciona para a próxima página
+    document.getElementById("form-nome").addEventListener("submit", function(e) {
+      e.preventDefault();
+      const nome = document.getElementById("nome").value.trim();
+      if (!nome) return;
+      localStorage.setItem("convidadoBia", nome);
+      window.location.href = "mensagem.html";
+    });
+  </script>
+
+</body>
+</html>

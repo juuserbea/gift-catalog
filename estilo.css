@@ -1,0 +1,261 @@
+/* ===========================
+   Variáveis CSS
+   =========================== */
+   :root {
+    --gold: #d4af37;
+    --gold-dark: #d4ae6b;
+    --gold-light: #f9d976;
+    --red: #e74c3c;
+    --text-dark: #b8860b;
+    --bg-light: #f9f9f9;
+    --border-light: #ddd;
+    --radius-round: 50px;
+    --radius-lg: 16px;
+    --radius-md: 12px;
+    --spacing-sm: 8px;
+    --spacing-md: 12px;
+    --spacing-lg: 20px;
+    --shadow-light: 0 4px 10px rgba(0,0,0,0.1);
+    --shadow-md: 0 8px 20px rgba(0,0,0,0.15);
+  }
+  
+  /* ===========================
+     Corpo da Página
+     =========================== */
+  body {
+    margin: 0;
+    font-family: sans-serif;
+    background: url('fundo-bia.jpg') center center / cover no-repeat fixed;
+    background-color: rgba(248, 217, 115, 0.61); /* Cor dourada clara com opacidade */
+    color: var(--gold-dark); /* Definindo a cor padrão do texto */
+  }
+  
+  /* ===========================
+     Título - Dourado e com sombra
+     =========================== */
+  .titulo {
+    font-family: 'Cinzel', serif;
+    color: var(--gold); /* Cor dourada no título */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra sutil no título */
+    font-weight: bold;
+    font-size: 2.5rem; /* Ajuste o tamanho conforme necessário */
+    margin: var(--spacing-lg) 0;
+  }
+  
+  /* ===========================
+     Estilo das Mensagens
+     =========================== */
+  .mensagem {
+    color: var(--gold-dark);
+    font-size: 1.125rem;
+    line-height: 1.6;
+    margin-bottom: var(--spacing-md);
+  }
+  
+  .mensagem strong {
+    color: var(--gold);
+  }
+  
+  /* ===========================
+     Botões e Campos de Entrada
+     =========================== */
+  .btn {
+    background: var(--gold);
+    color: white;
+    font-size: 1.125rem;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    border: 2px solid var(--gold);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .btn:hover {
+    background: var(--gold-dark);
+    transform: scale(1.05);
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  input[type="text"] {
+    padding: 1rem;
+    border-radius: 1.5rem;
+    border: 2px solid var(--gold-light);
+    background: rgba(255, 249, 230, 0.5);
+    color: var(--gold-dark);
+    font-size: 1rem;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  
+  input[type="text"]:focus {
+    border-color: var(--gold);
+    box-shadow: 0px 0px 8px var(--gold);
+  }
+  
+  /* ===========================
+     Animação do Formulário
+     =========================== */
+  .fade-in {
+    animation: fadeIn 1s ease-out forwards;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  /* ===========================
+     Carrinho e Finalização de Presentes
+     =========================== */
+  #carrinho {
+    position: fixed;
+    top: var(--spacing-lg);
+    right: var(--spacing-lg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 50px;
+    padding: var(--spacing-md);
+    background: var(--gold);
+    border-radius: var(--radius-round);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: var(--shadow-light);
+    z-index: 9999;
+  }
+  
+  #painel-carrinho {
+    position: fixed;
+    top: 80px;
+    right: var(--spacing-lg);
+    width: 90%;
+    max-width: 280px;
+    max-height: 60vh;
+    padding: var(--spacing-lg);
+    background: white;
+    border: 2px solid var(--gold);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-md);
+    overflow-y: auto;
+    display: none;
+    z-index: 9999;
+  }
+  
+  #finalizacao {
+    max-width: 100%;
+    width: 100%;
+    margin: var(--spacing-lg) auto;
+    padding: var(--spacing-lg);
+    background: var(--bg-light);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-md);
+  }
+  
+  #finalizacao h2 {
+    margin-top: 0;
+    text-align: center;
+    color: var(--gold);
+    font-size: 1.8em;
+  }
+  
+  #finalizacao .resumo-itens {
+    margin-top: var(--spacing-lg);
+  }
+  
+  #finalizacao .item-resumo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: var(--spacing-md);
+    padding: var(--spacing-sm);
+    background: rgba(255,255,255,0.8);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-light);
+  }
+  
+  #finalizacao .item-resumo .nome {
+    color: var(--gold);
+  }
+  
+  #finalizacao .item-resumo .quantidade {
+    color: var(--gold-dark);
+  }
+  
+  #finalizacao .item-resumo .preco {
+    color: var(--red);
+    font-weight: bold;
+  }
+  
+  #finalizacao .botao-finalizar {
+    width: 100%;
+    padding: var(--spacing-md) 0;
+    margin-top: var(--spacing-lg);
+    background: var(--gold);
+    color: white;
+    font-size: 1.1em;
+    border: none;
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  #finalizacao .botao-finalizar:hover {
+    background: var(--gold-light);
+    transform: scale(1.02);
+    box-shadow: var(--shadow-light);
+  }
+  
+  /* ===========================
+     Responsividade
+     =========================== */
+  @media (min-width: 600px) {
+    #carrinho {
+      width: 160px;
+      height: 60px;
+    }
+    #painel-carrinho {
+      max-width: 300px;
+      max-height: 400px;
+    }
+    #finalizacao {
+      max-width: 800px;
+      padding: 40px;
+    }
+    #finalizacao h2 {
+      font-size: 2.2em;
+    }
+    #finalizacao .botao-finalizar {
+      font-size: 1.2em;
+    }
+  }
+  
+  .botao-dourado {
+    background: var(--gold);
+    color: white;
+    font-size: 1.1em;
+    border: none;
+    padding: var(--spacing-md) var(--spacing-lg);
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .botao-dourado:hover {
+    background: var(--gold-light);
+    transform: scale(1.02);
+    box-shadow: var(--shadow-light);
+  }
+  
+  #contador {
+    color: var(black); /* A cor vermelha que você já definiu como --red */
+    font-size: 1.5em; /* Ajuste o tamanho da fonte, se necessário */
+    font-weight: bold; /* Adiciona negrito, se desejar */
+  }
